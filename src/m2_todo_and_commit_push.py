@@ -103,7 +103,7 @@ print(3607 * 34227)
 #           (Note: If you see only a Commit button:
 #              - HOVER over the  Commit  button
 #                (in the lower-right corner of the window)
-#              - CLICK on  Commit and Push.)
+#              - CLICK on  Commit andl Push.)
 #
 #   COMMIT adds the changed work to the version control system
 #   on your COMPUTER.  PUSH adds the changed work into your Github
