@@ -55,3 +55,5 @@ sizeCyan = 4
 for k in range(20):
     cyanTurtle.draw_regular_polygon(sizeCyan,3 * sizeCyan)
     sizeCyan = sizeCyan + 2
+
+
