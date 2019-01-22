@@ -2,15 +2,15 @@
 Your chance to explore Loops and Turtles!
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+         Aaron Wilkin, their colleagues, and OMAR A. FAYOUMI.
 """
 ########################################################################
-# TODO: 1.
+# DONE: 1.
 #   On Line 5 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ########################################################################
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -28,3 +28,30 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 #
 ########################################################################
+
+import rosegraphics as rg
+
+window = rg.TurtleWindow
+
+redTurtle = rg.SimpleTurtle('turtle')
+redTurtle.pen = rg.Pen('red', 2)
+redTurtle.speed = 30
+
+size = 20
+
+for k in range(20):
+    redTurtle.draw_regular_polygon(6,size)
+    size = size + 5
+
+
+cyanTurtle = rg.SimpleTurtle('circle')
+cyanTurtle.pen = rg.Pen('cyan', 4)
+cyanTurtle.speed = 40
+
+cyanTurtle.backward(40)
+
+sizeCyan = 4
+
+for k in range(20):
+    cyanTurtle.draw_regular_polygon(sizeCyan,3 * sizeCyan)
+    sizeCyan = sizeCyan + 2
